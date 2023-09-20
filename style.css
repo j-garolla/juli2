@@ -58,7 +58,8 @@ main p {
     max-width: 100%;
     height: auto;
     /* border-radius: 10px; Bordes redondeados para la imagen */
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin: 0;
     
 }
 .rsvp {
@@ -140,7 +141,7 @@ footer {
     }
 
     header h1 {
-        font-size: 36px; /* Tamaño para pantallas grandes */
+        font-size: 40px; /* Tamaño para pantallas grandes */
     }
     .container {
         flex: 2;
@@ -161,9 +162,10 @@ footer {
         max-width: 100%;
         height: auto;
         border-radius: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 }
+
 /* Estilos para los botones de Google Maps y Apple Maps */
 .map-buttons {
     display: flex;
@@ -197,10 +199,10 @@ footer {
         flex-direction: column;
     }
     header h1 {
-        font-size: 40px; /* Tamaño más pequeño para dispositivos móviles */
+        font-size: 48px; /* Tamaño más pequeño para dispositivos móviles */
     }
     header h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
     
     /* Agrega un margen inferior solo al botón de Google Maps */
