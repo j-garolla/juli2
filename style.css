@@ -19,7 +19,7 @@ button:hover {
     transition: background-color 0.3s ease; /* Transición suave */
 }
 header h1 {
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee Outline', cursive;
     color: #FFFFFF;
     font-size: 36px; /* Tamaño inicial para pantallas grandes */
     text-transform: uppercase;
@@ -197,10 +197,10 @@ footer {
         flex-direction: column;
     }
     header h1 {
-        font-size: 30px; /* Tamaño más pequeño para dispositivos móviles */
+        font-size: 40px; /* Tamaño más pequeño para dispositivos móviles */
     }
     header h2 {
-        font-size: 30px;
+        font-size: 35px;
     }
     
     /* Agrega un margen inferior solo al botón de Google Maps */
